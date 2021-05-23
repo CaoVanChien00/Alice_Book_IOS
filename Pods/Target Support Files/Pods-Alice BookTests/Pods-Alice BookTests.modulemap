@@ -1,0 +1,6 @@
+framework module Pods_Alice_BookTests {
+  umbrella header "Pods-Alice BookTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

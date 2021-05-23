@@ -13,6 +13,8 @@
 		0051A4492659E03600C246E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0051A4482659E03600C246E0 /* Assets.xcassets */; };
 		0051A44C2659E03600C246E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0051A44A2659E03600C246E0 /* LaunchScreen.storyboard */; };
 		0051A4572659E03600C246E0 /* Alice_BookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0051A4562659E03600C246E0 /* Alice_BookTests.swift */; };
+		33D10ED43DAF7FAF9F0B84BF /* Pods_Alice_BookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A47551A77E00892A42A339 /* Pods_Alice_BookTests.framework */; };
+		EC19B90301CE7E029505DFBC /* Pods_Alice_Book.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C154A222A4FD17A4410178 /* Pods_Alice_Book.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,12 @@
 		0051A4522659E03600C246E0 /* Alice BookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alice BookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0051A4562659E03600C246E0 /* Alice_BookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alice_BookTests.swift; sourceTree = "<group>"; };
 		0051A4582659E03600C246E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FC1D048A25A3622000A9C5B /* Pods-Alice BookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alice BookTests.debug.xcconfig"; path = "Target Support Files/Pods-Alice BookTests/Pods-Alice BookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		20DAB52023DD9615FD9CD04D /* Pods-Alice BookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alice BookTests.release.xcconfig"; path = "Target Support Files/Pods-Alice BookTests/Pods-Alice BookTests.release.xcconfig"; sourceTree = "<group>"; };
+		23C154A222A4FD17A4410178 /* Pods_Alice_Book.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alice_Book.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		790872DA838450FC4E6BBC7D /* Pods-Alice Book.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alice Book.debug.xcconfig"; path = "Target Support Files/Pods-Alice Book/Pods-Alice Book.debug.xcconfig"; sourceTree = "<group>"; };
+		944237A072276A315175CC3C /* Pods-Alice Book.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alice Book.release.xcconfig"; path = "Target Support Files/Pods-Alice Book/Pods-Alice Book.release.xcconfig"; sourceTree = "<group>"; };
+		D0A47551A77E00892A42A339 /* Pods_Alice_BookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alice_BookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC19B90301CE7E029505DFBC /* Pods_Alice_Book.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33D10ED43DAF7FAF9F0B84BF /* Pods_Alice_BookTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +72,8 @@
 				0051A4402659E03500C246E0 /* Alice Book */,
 				0051A4552659E03600C246E0 /* Alice BookTests */,
 				0051A43F2659E03500C246E0 /* Products */,
+				46D1271EE2FDE5C142FFD6A2 /* Pods */,
+				ACC1D674E742FC900D44D473 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -136,6 +148,27 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		46D1271EE2FDE5C142FFD6A2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				790872DA838450FC4E6BBC7D /* Pods-Alice Book.debug.xcconfig */,
+				944237A072276A315175CC3C /* Pods-Alice Book.release.xcconfig */,
+				0FC1D048A25A3622000A9C5B /* Pods-Alice BookTests.debug.xcconfig */,
+				20DAB52023DD9615FD9CD04D /* Pods-Alice BookTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ACC1D674E742FC900D44D473 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				23C154A222A4FD17A4410178 /* Pods_Alice_Book.framework */,
+				D0A47551A77E00892A42A339 /* Pods_Alice_BookTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0051A45B2659E03600C246E0 /* Build configuration list for PBXNativeTarget "Alice Book" */;
 			buildPhases = (
+				5D9A911069BA13216C04AFA3 /* [CP] Check Pods Manifest.lock */,
 				0051A43A2659E03500C246E0 /* Sources */,
 				0051A43B2659E03500C246E0 /* Frameworks */,
 				0051A43C2659E03500C246E0 /* Resources */,
+				BD8F11954A1667472D3B7303 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0051A45E2659E03600C246E0 /* Build configuration list for PBXNativeTarget "Alice BookTests" */;
 			buildPhases = (
+				576BEF55593681497596854A /* [CP] Check Pods Manifest.lock */,
 				0051A44E2659E03600C246E0 /* Sources */,
 				0051A44F2659E03600C246E0 /* Frameworks */,
 				0051A4502659E03600C246E0 /* Resources */,
@@ -231,6 +267,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		576BEF55593681497596854A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Alice BookTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D9A911069BA13216C04AFA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Alice Book-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD8F11954A1667472D3B7303 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Alice Book/Pods-Alice Book-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Alice Book/Pods-Alice Book-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Alice Book/Pods-Alice Book-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0051A43A2659E03500C246E0 /* Sources */ = {
@@ -398,6 +498,7 @@
 		};
 		0051A45C2659E03600C246E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 790872DA838450FC4E6BBC7D /* Pods-Alice Book.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -415,6 +516,7 @@
 		};
 		0051A45D2659E03600C246E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 944237A072276A315175CC3C /* Pods-Alice Book.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -432,6 +534,7 @@
 		};
 		0051A45F2659E03600C246E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FC1D048A25A3622000A9C5B /* Pods-Alice BookTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -452,6 +555,7 @@
 		};
 		0051A4602659E03600C246E0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20DAB52023DD9615FD9CD04D /* Pods-Alice BookTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
