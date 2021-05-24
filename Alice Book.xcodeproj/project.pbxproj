@@ -3,16 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0027C0A2265A08B800B48F1A /* Chapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0027C0A1265A08B800B48F1A /* Chapter.swift */; };
 		0051A4422659E03500C246E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0051A4412659E03500C246E0 /* AppDelegate.swift */; };
 		0051A4442659E03500C246E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0051A4432659E03500C246E0 /* ViewController.swift */; };
 		0051A4472659E03500C246E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0051A4452659E03500C246E0 /* Main.storyboard */; };
 		0051A4492659E03600C246E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0051A4482659E03600C246E0 /* Assets.xcassets */; };
 		0051A44C2659E03600C246E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0051A44A2659E03600C246E0 /* LaunchScreen.storyboard */; };
 		0051A4572659E03600C246E0 /* Alice_BookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0051A4562659E03600C246E0 /* Alice_BookTests.swift */; };
+		009B5AC4265A8FCB004D8E4B /* DBCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009B5AC3265A8FCB004D8E4B /* DBCategory.swift */; };
+		00C1AAE5265B49450042F935 /* AddCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C1AAE4265B49450042F935 /* AddCategoryViewController.swift */; };
+		00C1AAEA265B5D2C0042F935 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C1AAE9265B5D2C0042F935 /* CustomTextField.swift */; };
+		00CA8FA42659FC5E00AD3E8D /* RequestURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CA8FA32659FC5E00AD3E8D /* RequestURL.swift */; };
+		00CA8FA6265A03BD00AD3E8D /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00CA8FA5265A03BD00AD3E8D /* Category.swift */; };
 		33D10ED43DAF7FAF9F0B84BF /* Pods_Alice_BookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0A47551A77E00892A42A339 /* Pods_Alice_BookTests.framework */; };
 		EC19B90301CE7E029505DFBC /* Pods_Alice_Book.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23C154A222A4FD17A4410178 /* Pods_Alice_Book.framework */; };
 /* End PBXBuildFile section */
@@ -28,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0027C0A1265A08B800B48F1A /* Chapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter.swift; sourceTree = "<group>"; };
 		0051A43E2659E03500C246E0 /* Alice Book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alice Book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0051A4412659E03500C246E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0051A4432659E03500C246E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +45,11 @@
 		0051A4522659E03600C246E0 /* Alice BookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Alice BookTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0051A4562659E03600C246E0 /* Alice_BookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alice_BookTests.swift; sourceTree = "<group>"; };
 		0051A4582659E03600C246E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		009B5AC3265A8FCB004D8E4B /* DBCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBCategory.swift; sourceTree = "<group>"; };
+		00C1AAE4265B49450042F935 /* AddCategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCategoryViewController.swift; sourceTree = "<group>"; };
+		00C1AAE9265B5D2C0042F935 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		00CA8FA32659FC5E00AD3E8D /* RequestURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestURL.swift; sourceTree = "<group>"; };
+		00CA8FA5265A03BD00AD3E8D /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		0FC1D048A25A3622000A9C5B /* Pods-Alice BookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alice BookTests.debug.xcconfig"; path = "Target Support Files/Pods-Alice BookTests/Pods-Alice BookTests.debug.xcconfig"; sourceTree = "<group>"; };
 		20DAB52023DD9615FD9CD04D /* Pods-Alice BookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alice BookTests.release.xcconfig"; path = "Target Support Files/Pods-Alice BookTests/Pods-Alice BookTests.release.xcconfig"; sourceTree = "<group>"; };
 		23C154A222A4FD17A4410178 /* Pods_Alice_Book.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alice_Book.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +106,7 @@
 				0051A4622659E08100C246E0 /* Views */,
 				0051A4652659E10F00C246E0 /* Models */,
 				0051A4642659E0A200C246E0 /* Utilities */,
+				009B5AC2265A8FB3004D8E4B /* Database */,
 				0051A4612659E07100C246E0 /* Systems */,
 			);
 			path = "Alice Book";
@@ -122,6 +135,7 @@
 		0051A4622659E08100C246E0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				00C1AAE9265B5D2C0042F935 /* CustomTextField.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -129,6 +143,7 @@
 		0051A4632659E09500C246E0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				00C1AAE6265B494A0042F935 /* Category */,
 				0051A4432659E03500C246E0 /* ViewController.swift */,
 			);
 			path = Controllers;
@@ -137,6 +152,7 @@
 		0051A4642659E0A200C246E0 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				00CA8FA32659FC5E00AD3E8D /* RequestURL.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -144,8 +160,26 @@
 		0051A4652659E10F00C246E0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				00CA8FA5265A03BD00AD3E8D /* Category.swift */,
+				0027C0A1265A08B800B48F1A /* Chapter.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		009B5AC2265A8FB3004D8E4B /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				009B5AC3265A8FCB004D8E4B /* DBCategory.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		00C1AAE6265B494A0042F935 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				00C1AAE4265B49450042F935 /* AddCategoryViewController.swift */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		46D1271EE2FDE5C142FFD6A2 /* Pods */ = {
@@ -156,7 +190,6 @@
 				0FC1D048A25A3622000A9C5B /* Pods-Alice BookTests.debug.xcconfig */,
 				20DAB52023DD9615FD9CD04D /* Pods-Alice BookTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -338,7 +371,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0051A4442659E03500C246E0 /* ViewController.swift in Sources */,
+				009B5AC4265A8FCB004D8E4B /* DBCategory.swift in Sources */,
+				0027C0A2265A08B800B48F1A /* Chapter.swift in Sources */,
 				0051A4422659E03500C246E0 /* AppDelegate.swift in Sources */,
+				00C1AAEA265B5D2C0042F935 /* CustomTextField.swift in Sources */,
+				00CA8FA42659FC5E00AD3E8D /* RequestURL.swift in Sources */,
+				00C1AAE5265B49450042F935 /* AddCategoryViewController.swift in Sources */,
+				00CA8FA6265A03BD00AD3E8D /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
